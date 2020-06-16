@@ -10,6 +10,8 @@
   box-sizing: border-box;
 }
 
+/* HEADER */
+
 .header {
   display: flex;
   height: 100vh;
@@ -18,24 +20,6 @@
   position: relative;
   background-color: #f2f2f2;
   /* выше установили ограничения для секции */
-}
-
-.logo {
-  width: 183px;
-}
-
-.logo_place_header {
-  height: 32px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-  background-image: url(../images/logo_place_header.svg);
-}
-
-.logo_place_footer {
-  height: 35px;
-  background-image: url(../images/logo_place_footer.svg);
 }
 
 .header__main-illustration {
@@ -87,6 +71,28 @@
   color: coral;
 }
 
+/* LOGO */
+
+.logo {
+  width: 183px;
+}
+
+.logo_place_header {
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+  background-image: url(../images/logo_place_header.svg);
+}
+
+.logo_place_footer {
+  height: 35px;
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+/* DESCRIPTION */
+
 .description {
   display: flex;
   padding-top: 100px;
@@ -129,6 +135,8 @@
   font-weight: bold;
 }
 
+/* DIGITS */
+
 .digits {
   display: flex;
   padding: 100px 0;
@@ -162,6 +170,8 @@
 .section-subtitle_theme_dark {
   color: #fff;
 }
+
+/* TABLE */
 
 .table {
   display: flex;
@@ -215,6 +225,8 @@
   margin: 0;
 }
 
+/* FEYNMAN */
+
 .feynman {
   display: flex;
   position: relative;
@@ -261,6 +273,8 @@
   color: coral;
 }
 
+/* KAUFMAN */
+
 .kaufman {
   display: flex;
   background-color: #1f1f1f;
@@ -281,6 +295,8 @@
   top: 0;
   right: -210px;
 }
+
+/* FOOTER */
 
 .footer {
   min-height: 350px;

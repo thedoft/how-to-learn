@@ -1,5 +1,5 @@
 .description {
   display: flex;
-  padding-top: 100px;
+  padding: 100px 0 0;
   justify-content: center;
 }

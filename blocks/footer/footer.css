@@ -10,7 +10,11 @@
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
-  display: flex;
-  justify-content: center;
   padding: 60px 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

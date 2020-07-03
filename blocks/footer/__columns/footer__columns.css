@@ -1,7 +1,11 @@
 .footer__columns {
-  display: flex;
-  width: 90%;
-  min-height: 350px;
-  justify-content: space-between;
   margin: 0;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 350px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }

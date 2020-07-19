@@ -14,7 +14,6 @@ https://thedoft.github.io/how-to-learn/index.html
 * Файловая структура BEM Nested;
 * iframe, embed, API YouTube;
 * Трансформации и анимации в CSS;
-* Организация файлов по БЭМ;
 * Git + Bash
 
 ## Инструкция по использованию
